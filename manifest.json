@@ -1,11 +1,11 @@
 {
     "manifest_version": 3,
     "name": "My Extension",
-    "version": "1.0",
-    "description": "Inject a small floating box on any webpage.",
+    "version": "1.1",
+    "description": "Inject a floating box on LinkedIn profiles only.",
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
+            "matches": ["https://www.linkedin.com/in/*"],
             "js": ["content.js"]
         }
     ]
