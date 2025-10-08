@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "My Extension",
+    "name": "Extension for LinkedIn Mutual Connections",
     "version": "1.4",
     "description": "Injects a floating box on LinkedIn profiles with randomized framing for deleted/non deleted mutual connections.",
     "content_scripts": [
